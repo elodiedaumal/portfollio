@@ -4,6 +4,7 @@ import { FaGithub, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 import Herodesktop from '../assets/images/image-hero-desktop.png';
+import Heromobile from '../assets/images/image-hero-mobile.png';
 
 const Hero = () => {
   return (
@@ -11,7 +12,12 @@ const Hero = () => {
       <img
         src={Herodesktop}
         alt='elodie daumal'
-        className='md:mb-20 mb-10 h-full  md:w-2/4'
+        className='md:mb-20 mb-10 h-full  md:w-2/4 hidden md:block  '
+      />
+      <img
+        src={Heromobile}
+        alt='elodie daumal'
+        className='md:mb-20 mb-10 h-full  md:w-2/4 md:hidden'
       />
       <div className='md:grid items-center md:justify-items-start'>
         <div className='text-center md:p-0 p-5 md:text-left '>
