@@ -26,7 +26,7 @@ const Hero = () => {
             With my knowledge I develop interfaces taht are easy to use and
             pleasent for the eye.
           </p>
-          <div className='flex justify-center md:justify-start text-4xl py-3 gap-16 text-purple-600'>
+          <div className='flex justify-center md:justify-start text-4xl py-3 gap-16 text-purple-600/60'>
             <Link to='/'>
               <FaEnvelope />
             </Link>
