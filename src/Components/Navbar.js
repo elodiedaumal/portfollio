@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { BsFillMoonStarsFill, BsSunFill } from 'react-icons/bs';
 import { AiOutlineMenuFold } from 'react-icons/ai';
-import IconMenu from '../assets/images/icon-menu.svg';
+
 import IconClose from '../assets/images/icon-close-menu.svg';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const getStoredTheme = () => {
   let theme = 'dark';
@@ -35,18 +36,28 @@ const Navbar = () => {
   };
 
   return (
-    <section className='dark:bg-gray-900 dark:text-zinc-50'>
+    <section id='top' className='dark:bg-gray-900 dark:text-zinc-50'>
       <nav className='pt-10 pb-12 flex justify-between max-w-screen-xl items-center mx-auto px-5 bg-zinc-50 dark:bg-gray-900 dark:text-zinc-50 '>
-        <div className='flex items-center gap-12'>
-          <h1 className='text-xl  font-bold'>FaEDaumal</h1>
+        <div className='flex items-center md:gap-12 '>
+          <Link to='/'>
+            <h1 className='text-xl  font-bold'>FaEDaumal</h1>
+          </Link>
           <ul className=' lg:flex gap-5 capitalize hidden'>
-            <li>about me</li>
-            <li>skills</li>
-            <li>portfolio</li>
-            <li>contact</li>
+            <Link to='/#about'>
+              <li>about me</li>
+            </Link>
+            <Link to='/#skills'>
+              <li>skills</li>
+            </Link>
+            <Link to='/#portfolio'>
+              <li>portfolio</li>
+            </Link>
+            <Link to='/#contact'>
+              <li>contact</li>
+            </Link>
           </ul>
         </div>
-        <ul className='flex items-center gap-5 '>
+        <ul className='flex items-center md:gap-5 gap-5'>
           {theme === 'light' ? (
             <li
               id='theme-toggle'
@@ -67,7 +78,7 @@ const Navbar = () => {
             >
               <div className='bg-gray-900 rounded-2xl p-3 md:p-4 border-3 absolute top-0 md:top-0.5  right-0.5'></div>
               <BsSunFill
-                className='cursor-pointer text-sm md:text-xl  text-zinc-50 absolute top-1 right-1.5  md:right-2 md:top-2 '
+                className='cursor-pointer text-sm md:text-xl  text-zinc-50 absolute top-1 right-1.5 md:pl-px  md:right-2 md:top-2 '
                 onClick={toggleTheme}
               />
             </li>
@@ -87,16 +98,25 @@ const Navbar = () => {
             : 'hidden'
         }
       >
-        <div className={sidebar ? 'bg-gray-500/50 h-screen  ' : 'hidden'}></div>
+        <div className={sidebar ? 'bg-gray-900/50 h-screen  ' : 'hidden'}></div>
         <nav className='h-screen bg-white col-span-2 dark:text-gray-900'>
-          <ul className='grid  gap-5 relative capitalize  p-5 pt-10'>
+          <ul className='grid  gap-5 relative capitalize  p-5 pt-10 font-bold cursor-pointer text-lg '>
             <li className='lg:hidden justify-self-end' onClick={openSideBar}>
               <img src={IconClose} alt='menu' />
             </li>
-            <li onClick={openSideBar}>about me</li>
-            <li onClick={openSideBar}>skills</li>
-            <li onClick={openSideBar}>portfolio</li>
-            <li onClick={openSideBar}>contact</li>
+
+            <Link to='/#about'>
+              <li onClick={openSideBar}>about me</li>
+            </Link>
+            <Link to='/#skills'>
+              <li onClick={openSideBar}>skills</li>
+            </Link>
+            <Link to='/#portfolio'>
+              <li onClick={openSideBar}>portfolio</li>
+            </Link>
+            <Link to='/#contact'>
+              <li onClick={openSideBar}>contact</li>
+            </Link>
           </ul>
         </nav>
       </aside>

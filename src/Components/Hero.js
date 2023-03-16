@@ -8,16 +8,16 @@ import Heromobile from '../assets/images/image-hero-mobile.png';
 
 const Hero = () => {
   return (
-    <section className='pt-1 md:flex md:px-10 flex-row-reverse max-w-screen-xl gap-20 mx-auto dark:bg-gray-900 dark:text-zinc-50'>
+    <section className='pt-1 md:flex md:px-10 flex-row-reverse max-w-screen-xl gap-20 mx-auto '>
       <img
         src={Herodesktop}
         alt='elodie daumal'
-        className='md:mb-20 mb-10 h-full  md:w-2/4 hidden md:block  '
+        className='md:mb-20   md:w-2/4 hidden md:block  '
       />
       <img
         src={Heromobile}
         alt='elodie daumal'
-        className='md:mb-20 mb-10 h-full  md:w-2/4 md:hidden'
+        className='md:mb-20 mb-10 w-full  md:hidden '
       />
       <div className='md:grid items-center md:justify-items-start'>
         <div className='text-center md:p-0 p-5 md:text-left '>

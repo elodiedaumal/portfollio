@@ -16,7 +16,7 @@ import {
 
 const Skills = () => {
   return (
-    <section className=' mx-auto   leading-relaxed py-5 md:mb-20 dark:bg-gray-900 dark:text-zinc-50'>
+    <section id='skills' className=' mx-auto   leading-relaxed py-5 md:mb-20 '>
       <div
         class='w-full bg-cover bg-center '
         style={{ backgroundImage: `url(${SkillsImg})` }}
