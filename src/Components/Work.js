@@ -352,7 +352,7 @@ const Work = () => {
               </span>
             </p>
             <Link
-              to='https://elodiedaumal-movie-finder.netlify.app/'
+              to='https://frigorificoamericano.pro/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -360,11 +360,6 @@ const Work = () => {
                 See Live
               </button>
             </Link>
-            <Link
-              to='https://frigorificoamericano.pro/'
-              target='_blank'
-              rel='noopener noreferrer'
-            ></Link>
           </div>
         </div>
       </div>
