@@ -52,7 +52,7 @@ const Navbar = () => {
             <Link to='/#portfolio'>
               <li>portfolio</li>
             </Link>
-            <Link to='/#contact'>
+            <Link to='/contact'>
               <li>contact</li>
             </Link>
           </ul>
@@ -84,7 +84,7 @@ const Navbar = () => {
             </li>
           )}
           <li
-            className='lg:hidden dark:stroke-zinc-50 text-3xl'
+            className='lg:hidden dark:stroke-zinc-50 text-3xl cursor-pointer'
             onClick={openSideBar}
           >
             <AiOutlineMenuFold />
@@ -114,7 +114,7 @@ const Navbar = () => {
             <Link to='/#portfolio'>
               <li onClick={openSideBar}>portfolio</li>
             </Link>
-            <Link to='/#contact'>
+            <Link to='contact'>
               <li onClick={openSideBar}>contact</li>
             </Link>
           </ul>
