@@ -6,12 +6,12 @@ import Work from './Components/Work';
 
 const Home = () => {
   return (
-    <>
+    <main className='dark:bg-gray-900 dark:text-zinc-50'>
       <Hero />
       <About />
       <Skills />
       <Work />
-    </>
+    </main>
   );
 };
 

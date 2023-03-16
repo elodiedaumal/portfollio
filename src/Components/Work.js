@@ -11,7 +11,7 @@ import Web9 from '../assets/images/homeoffice.jpg';
 
 const Work = () => {
   return (
-    <section className=' md:mb-20 grid  md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 md:px-10 gap-5 px-5 max-w-screen-xl justify-center mx-auto'>
+    <section className=' md:pb-20 grid  md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 md:px-10 gap-5 px-5 max-w-screen-xl justify-center mx-auto dark:bg-gray-900 dark:text-zinc-50'>
       <h2 className='text-4xl max-w-screen-xl  py-5 text-left md:col-span-3 lg:col-span-4 sm:col-span-2'>
         My <span className='text-sky-500'>Work</span>
       </h2>

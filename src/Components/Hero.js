@@ -8,7 +8,7 @@ import Heromobile from '../assets/images/image-hero-mobile.png';
 
 const Hero = () => {
   return (
-    <section className='md:flex md:px-10 flex-row-reverse max-w-screen-xl gap-20 mx-auto'>
+    <section className='pt-1 md:flex md:px-10 flex-row-reverse max-w-screen-xl gap-20 mx-auto dark:bg-gray-900 dark:text-zinc-50'>
       <img
         src={Herodesktop}
         alt='elodie daumal'
@@ -21,13 +21,13 @@ const Hero = () => {
       />
       <div className='md:grid items-center md:justify-items-start'>
         <div className='text-center md:p-0 p-5 md:text-left '>
-          <h2 className='text-4xl py-2 md:text-5xl text-gray-900 font-bold'>
+          <h2 className='text-4xl py-2 md:text-5xl text-gray-900 font-bold dark:text-zinc-50'>
             Elodie Daumal
           </h2>
           <h3 className='text-2xl py-2 text-sky-500'>
             Junior Frontend Developer
           </h3>
-          <p className='text-md py-5 leading-8 text-gray-800'>
+          <p className='text-md py-5 leading-8 text-gray-800 dark:text-zinc-200'>
             Good products deserve to show their best side. I help them do that.
             With my knowledge I develop interfaces taht are easy to use and
             pleasent for the eye.

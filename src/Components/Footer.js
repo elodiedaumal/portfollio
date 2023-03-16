@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <section className=' bg-slate-900 text-white text-center py-10 text-3xl'>
+    <section className=' bg-slate-900 text-white text-center py-10 text-3xl dark:bg-zinc-50 dark:text-gray-900'>
       <div className='max-w-screen-xl gap-5 mx-auto flex flex-col items-center'>
         <p>Contact Me:</p>
         <p className='text-xl text-purple-400'>elodiedaumal@gmail.com</p>
