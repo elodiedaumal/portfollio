@@ -13,6 +13,7 @@ import {
   SiTailwindcss,
   SiVisualstudiocode,
 } from 'react-icons/si';
+import { AiFillGithub } from 'react-icons/ai';
 
 const Skills = () => {
   return (
@@ -32,10 +33,12 @@ const Skills = () => {
                 <FaCss3Alt />
                 <SiStyledcomponents />
                 <SiTailwindcss />
+                <FaNodeJs />
               </div>
               <p className='md:text-xl'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aliquid, ratione!
+                Flexbox and grid are no challenge for me! Thanks to those
+                amazing styling tools I've been exploring a world of
+                possibilities
               </p>
             </div>
             <div className='flex flex-col gap-2 md:gap-5'>
@@ -48,20 +51,21 @@ const Skills = () => {
                 <FaJsSquare />
               </div>
               <p className='md:text-xl'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aliquid, ratione!
+                I've made React my main coding library, I found it very
+                intuitive and straight forward. Soon I'll start implementin
+                Vue.js to my repertoir.
               </p>
             </div>
             <div className='flex flex-col gap-2 md:gap-5'>
               <h3 className='underline decoration-purple-600'>Tools</h3>
               <div className='flex gap-2 text-2xl md:text-4xl md:gap-5 text-center justify-center'>
-                <FaNodeJs />
-                <FaWordpress />
+                <AiFillGithub />
                 <SiVisualstudiocode />
+                <FaWordpress />
               </div>
               <p className='md:text-xl'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aliquid, ratione!
+                Github and vscode are my bread and butter, Their is not a day
+                without me being thankfull for those amazing tools.
               </p>
             </div>
           </span>

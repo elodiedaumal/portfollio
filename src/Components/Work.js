@@ -29,7 +29,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> Styled Components
@@ -65,7 +65,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> Styled Components <br /> API
@@ -97,7 +97,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> CSS
@@ -133,7 +133,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> Styled Components
@@ -169,7 +169,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> CSS <br /> API
@@ -205,7 +205,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> Tailwind CSS
@@ -241,7 +241,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> Styled Components <br /> API
@@ -277,7 +277,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 React <br /> CSS <br /> API
@@ -309,7 +309,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 HTML <br /> CSS <br /> Javascript
@@ -345,7 +345,7 @@ const Work = () => {
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
-              Made with:
+              Developed with:
               <br />
               <span className='font-thin'>
                 Wordpress <br /> CSS
