@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05e7e6c4.css",
+    "main.js": "/static/js/main.4dc11d3c.js",
+    "static/media/image-hero-desktop.png": "/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/skills.jpg": "/static/media/skills.39cf333ca1abcc334b69.jpg",
+    "static/media/image-hero-mobile.png": "/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
+    "static/media/movie.jpg": "/static/media/movie.62f8fc0a3d177b205eea.jpg",
+    "static/media/frigo.jpg": "/static/media/frigo.61c859022fe470485314.jpg",
+    "static/media/rick-and-morty.jpg": "/static/media/rick-and-morty.5a668ca7ec4ebea9dc59.jpg",
+    "static/media/ip-tracker.jpg": "/static/media/ip-tracker.17d7c0a9750e5c367d1b.jpg",
+    "static/media/omnifood.jpg": "/static/media/omnifood.3263dc947987a2aad107.jpg",
+    "static/media/tailwind-1.jpg": "/static/media/tailwind-1.6da71aef49faf3d18218.jpg",
+    "static/media/homeoffice.jpg": "/static/media/homeoffice.09cd78471bc61c292842.jpg",
+    "static/media/space.jpg": "/static/media/space.f8507170193f63da7401.jpg",
+    "static/media/quiz.jpg": "/static/media/quiz.0de82c6dbc8d9c18fbf3.jpg",
+    "static/media/advice.jpg": "/static/media/advice.a35693ef3b7a9bedbe6e.jpg",
+    "index.html": "/index.html",
+    "static/media/icon-close-menu.svg": "/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
+    "main.05e7e6c4.css.map": "/static/css/main.05e7e6c4.css.map",
+    "main.4dc11d3c.js.map": "/static/js/main.4dc11d3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e7e6c4.css",
+    "static/js/main.4dc11d3c.js"
+  ]
+}

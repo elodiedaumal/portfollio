@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='contact' element={<Contact />} />
-        <Route path='thanks' element={<Thank />} />
+
         <Route path='*' element={<p>There's nothing here: 404!</p>} />
       </Routes>
       <Footer />

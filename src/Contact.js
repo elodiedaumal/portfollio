@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-const FORM_ENDPOINT = ''; // TODO - fill on the later step
+const FORM_ENDPOINT =
+  'https://public.herotofu.com/v1/2ed16680-c401-11ed-aae2-49fd856067b7'; // TODO - fill on the later step
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -20,19 +21,20 @@ const ContactForm = () => {
   }
 
   return (
-    <section className='pt-1 md:flex md:px-10 flex-row-reverse max-w-screen-xl gap-20 mx-auto '>
+    <section className='h-screen  p-5 leading-relaxed md:px-10 md:mb-20 dark:bg-gray-900 dark:text-zinc-50'>
       <form
         action={FORM_ENDPOINT}
         onSubmit={handleSubmit}
         method='POST'
         target='_blank'
+        className='max-w-sm  pt-20 mx-auto '
       >
         <div className='mb-3 pt-0'>
           <input
             type='text'
             placeholder='Your name'
             name='name'
-            className='px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
+            className='px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
             required
           />
         </div>
@@ -41,7 +43,7 @@ const ContactForm = () => {
             type='email'
             placeholder='Email'
             name='email'
-            className='px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
+            className='px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
             required
           />
         </div>
@@ -49,13 +51,13 @@ const ContactForm = () => {
           <textarea
             placeholder='Your message'
             name='message'
-            className='px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
+            className='px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
             required
           />
         </div>
         <div className='mb-3 pt-0'>
           <button
-            className='bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
+            className='bg-indigo-600 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
             type='submit'
           >
             Send a message
