@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.58dcb35a.css",
-    "main.js": "/static/js/main.51ed2c2d.js",
+    "main.css": "/static/css/main.835ca196.css",
+    "main.js": "/static/js/main.628bc2c9.js",
     "static/media/image-hero-desktop.png": "/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/ip-tracker.jpg": "/static/media/ip-tracker.53ad2bb3e571c85d9015.jpg",
     "static/media/podadora.jpg": "/static/media/podadora.c0a0a1130375a3121b7a.jpg",
@@ -19,11 +19,11 @@
     "static/media/quiz.jpg": "/static/media/quiz.74fe6b98e10e17912c0f.jpg",
     "index.html": "/index.html",
     "static/media/icon-close-menu.svg": "/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
-    "main.58dcb35a.css.map": "/static/css/main.58dcb35a.css.map",
-    "main.51ed2c2d.js.map": "/static/js/main.51ed2c2d.js.map"
+    "main.835ca196.css.map": "/static/css/main.835ca196.css.map",
+    "main.628bc2c9.js.map": "/static/js/main.628bc2c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.58dcb35a.css",
-    "static/js/main.51ed2c2d.js"
+    "static/css/main.835ca196.css",
+    "static/js/main.628bc2c9.js"
   ]
 }

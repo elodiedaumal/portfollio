@@ -12,6 +12,7 @@ import {
   SiStyledcomponents,
   SiTailwindcss,
   SiVisualstudiocode,
+  SiTypescript,
 } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 
@@ -36,9 +37,10 @@ const Skills = () => {
                 <FaNodeJs />
               </div>
               <p className='md:text-xl'>
-                Flexbox and grid are no challenge for me! Thanks to those
-                amazing styling tools I've been exploring a world of
-                possibilities
+                Flexbox and grid are no challenge for me! I've build many
+                projects with the help of Tailwind CSS or Styled component.
+                Thanks to those amazing styling tools I've been exploring a
+                world of possibilities.
               </p>
             </div>
             <div className='flex flex-col gap-2 md:gap-5'>
@@ -52,8 +54,8 @@ const Skills = () => {
               </div>
               <p className='md:text-xl'>
                 I've made React my main coding library, I found it very
-                intuitive and straight forward. Soon I'll start implementin
-                Vue.js to my repertoir.
+                intuitive and straight forward. Soon I'll start implementing
+                Vue.js and Flutter to my repertoir.
               </p>
             </div>
             <div className='flex flex-col gap-2 md:gap-5'>
@@ -61,11 +63,15 @@ const Skills = () => {
               <div className='flex gap-2 text-2xl md:text-4xl md:gap-5 text-center justify-center'>
                 <AiFillGithub />
                 <SiVisualstudiocode />
+                <SiTypescript />
                 <FaWordpress />
               </div>
               <p className='md:text-xl'>
-                Github and vscode are my bread and butter, Their is not a day
-                without me being thankfull for those amazing tools.
+                Github and vscode are my bread and butter, their is not a day
+                without me being thankfull for those amazing tools. As my
+                knowledge grow stronger I've started to implement typescript in
+                some project. Even so for such small app it's not as usefull it
+                felt nice practising on real life projects.
               </p>
             </div>
           </span>

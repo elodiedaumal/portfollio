@@ -30,12 +30,12 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> Styled Components
-              </span>
+            <p className='px-5 text-white font-bold'>
+              E-commerce developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- Styled Components</li>
+              </ul>
             </p>
             <Link
               to='https://elodie-daumal-homeoffice.netlify.app/'
@@ -66,13 +66,15 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> Styled Components <br /> API
-              </span>
+            <p className='px-5 text-white font-bold'>
+              IP Tracker developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- Styled Components</li>
+                <li>- API</li>
+              </ul>
             </p>
+
             <Link
               to='https://elodiedaumal-iptracker.netlify.app/'
               target='_blank'
@@ -102,12 +104,12 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> CSS
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Quiz developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- CSS</li>
+              </ul>
             </p>
             <Link
               to='https://elodiedaumal-quiz.netlify.app/'
@@ -138,13 +140,14 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> Styled Components
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Web developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- Styled Components</li>
+              </ul>
             </p>
+
             <Link
               to='https://elodie-daumal-space.netlify.app/'
               target='_blank'
@@ -174,13 +177,15 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> CSS <br /> API
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Web developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- CSS</li>
+                <li>- API</li>
+              </ul>
             </p>
+
             <Link
               to='https://elodie-daumal-rick-and-morty-api.netlify.app/'
               target='_blank'
@@ -210,13 +215,15 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> Tailwind CSS <br /> Typescript
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Web developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- Tailwind CSS</li>
+                <li>- Typescript</li>
+              </ul>
             </p>
+
             <Link
               to='https://elodiedaumal-landing-page-tailwind.netlify.app/'
               target='_blank'
@@ -246,13 +253,14 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> Tailwind CSS
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Web developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- Tailwind CSS</li>
+              </ul>
             </p>
+
             <Link
               to='https://elodiedaumal-landing-page-tailwind.netlify.app/'
               target='_blank'
@@ -282,13 +290,15 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> Styled Components <br /> API
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Advice generator developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- Styled Components</li>
+                <li>- API</li>
+              </ul>
             </p>
+
             <Link
               to='https://elodie-daumal-advice-generator.netlify.app/'
               target='_blank'
@@ -318,13 +328,15 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                React <br /> CSS <br /> API
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Movie finder developed with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- CSS</li>
+                <li>- API</li>
+              </ul>
             </p>
+
             <Link
               to='https://elodiedaumal-movie-finder.netlify.app/'
               target='_blank'
@@ -354,13 +366,15 @@ const Work = () => {
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                HTML <br /> CSS <br /> Javascript
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Web developed with:
+              <ul className='font-thin'>
+                <li>- HTML</li>
+                <li>- CSS</li>
+                <li>- Javascript</li>
+              </ul>
             </p>
+
             <Link
               to='https://omnifoodelodiedaumal.netlify.app/'
               target='_blank'
@@ -385,18 +399,19 @@ const Work = () => {
       <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
         <img
           src={Web8}
-          alt='ip tracker web'
+          alt='frigorifico americano'
           className='shadow-xl cursor-pointer '
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                Wordpress <br /> CSS
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Web developed with:
+              <ul className='font-thin'>
+                <li>- Wordpress</li>
+                <li>- CSS</li>
+              </ul>
             </p>
+
             <Link
               to='https://frigorificoamericano.pro/'
               target='_blank'
@@ -412,17 +427,17 @@ const Work = () => {
       <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
         <img
           src={Web11}
-          alt='ip tracker web'
+          alt='podadora de altura'
           className='shadow-xl cursor-pointer '
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-10 text-white font-bold'>
-              Developed with:
-              <br />
-              <span className='font-thin'>
-                Wordpress <br /> CSS
-              </span>
+            <p className='px-5 text-white font-bold'>
+              Web developed with:
+              <ul className='font-thin'>
+                <li>- Wordpress</li>
+                <li>- CSS</li>
+              </ul>
             </p>
             <Link
               to='https://frigorificoamericano.pro/'
