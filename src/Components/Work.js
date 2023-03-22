@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Web1 from '../assets/images/ip-tracker.jpg';
 import Web2 from '../assets/images/movie.jpg';
@@ -10,12 +10,14 @@ import Web7 from '../assets/images/advice.jpg';
 import Web8 from '../assets/images/frigo.jpg';
 import Web9 from '../assets/images/homeoffice.jpg';
 import Web10 from '../assets/images/tailwind-1.jpg';
+import Web11 from '../assets/images/podadora.jpg';
+import Web12 from '../assets/images/gym.jpg';
 
 const Work = () => {
   return (
     <section
       id='portfolio'
-      className=' md:pb-20 pb-10 grid  md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 md:px-10 gap-5 px-5 max-w-screen-xl justify-center mx-auto '
+      className=' md:pb-20 pb-10 grid  md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 md:px-10 gap-10 md:gap-7 px-5 max-w-screen-xl justify-center mx-auto '
     >
       <h2 className='text-4xl max-w-screen-xl  py-5 text-left md:col-span-3 lg:col-span-4 sm:col-span-2'>
         My <span className='text-sky-500'>Work</span>
@@ -24,7 +26,7 @@ const Work = () => {
         <img
           src={Web9}
           alt='e-commerce'
-          className='shadow-xl cursor-pointer '
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm '
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
@@ -60,7 +62,7 @@ const Work = () => {
         <img
           src={Web1}
           alt='ip tracker web'
-          className='shadow-xl cursor-pointer '
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm '
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
@@ -93,7 +95,11 @@ const Work = () => {
         </div>
       </div>
       <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
-        <img src={Web4} alt='quiz' className='shadow-xl cursor-pointer ' />
+        <img
+          src={Web4}
+          alt='quiz'
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm '
+        />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
@@ -128,7 +134,7 @@ const Work = () => {
         <img
           src={Web6}
           alt='space travel'
-          className='shadow-xl cursor-pointer '
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm'
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
@@ -164,7 +170,7 @@ const Work = () => {
         <img
           src={Web5}
           alt='rick and morty web'
-          className='shadow-xl cursor-pointer '
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm'
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
@@ -198,9 +204,45 @@ const Work = () => {
       </div>
       <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
         <img
+          src={Web12}
+          alt='landing page'
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm'
+        />
+        <div className='opacity-0 hover:opacity-100'>
+          <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
+            <p className='px-10 text-white font-bold'>
+              Developed with:
+              <br />
+              <span className='font-thin'>
+                React <br /> Tailwind CSS <br /> Typescript
+              </span>
+            </p>
+            <Link
+              to='https://elodiedaumal-landing-page-tailwind.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button className='text-sm bg-purple-600 text-white rounded-md py-1 w-28 h-10 hover:bg-gray-900/50'>
+                See Live
+              </button>
+            </Link>
+            <Link
+              to='https://github.com/elodiedaumal/tailwind-landing-page'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button className='text-sm bg-purple-100  rounded-md py-1 w-28 h-10 hover:bg-white/50 text-gray-900'>
+                View Code
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
+        <img
           src={Web10}
           alt='landing page'
-          className='shadow-xl cursor-pointer '
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm'
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
@@ -236,7 +278,7 @@ const Work = () => {
         <img
           src={Web7}
           alt='advice generator'
-          className='shadow-xl cursor-pointer '
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm'
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
@@ -272,7 +314,7 @@ const Work = () => {
         <img
           src={Web2}
           alt='movie finder'
-          className='shadow-xl cursor-pointer '
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm'
         />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
@@ -305,7 +347,11 @@ const Work = () => {
         </div>
       </div>
       <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
-        <img src={Web3} alt='omnifood' className='shadow-xl cursor-pointer ' />
+        <img
+          src={Web3}
+          alt='omnifood'
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm'
+        />
         <div className='opacity-0 hover:opacity-100'>
           <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
             <p className='px-10 text-white font-bold'>
@@ -339,6 +385,33 @@ const Work = () => {
       <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
         <img
           src={Web8}
+          alt='ip tracker web'
+          className='shadow-xl cursor-pointer '
+        />
+        <div className='opacity-0 hover:opacity-100'>
+          <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
+            <p className='px-10 text-white font-bold'>
+              Developed with:
+              <br />
+              <span className='font-thin'>
+                Wordpress <br /> CSS
+              </span>
+            </p>
+            <Link
+              to='https://frigorificoamericano.pro/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button className='text-sm bg-purple-600 text-white rounded-md py-1 w-28 h-10 hover:bg-gray-900/50'>
+                See Live
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
+        <img
+          src={Web11}
           alt='ip tracker web'
           className='shadow-xl cursor-pointer '
         />
