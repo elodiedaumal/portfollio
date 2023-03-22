@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.e99999c5.css",
-    "main.js": "/static/js/main.88004f4b.js",
+    "main.css": "/static/css/main.58dcb35a.css",
+    "main.js": "/static/js/main.51ed2c2d.js",
     "static/media/image-hero-desktop.png": "/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/ip-tracker.jpg": "/static/media/ip-tracker.53ad2bb3e571c85d9015.jpg",
+    "static/media/podadora.jpg": "/static/media/podadora.c0a0a1130375a3121b7a.jpg",
+    "static/media/movie.jpg": "/static/media/movie.0f5ef160ff6ef1207946.jpg",
+    "static/media/frigo.jpg": "/static/media/frigo.d27a166a56b3a6932105.jpg",
     "static/media/skills.jpg": "/static/media/skills.39cf333ca1abcc334b69.jpg",
+    "static/media/rick-and-morty.jpg": "/static/media/rick-and-morty.e529986a3ff42d7092dc.jpg",
+    "static/media/tailwind-1.jpg": "/static/media/tailwind-1.80da2cda59e0740cdf5f.jpg",
+    "static/media/omnifood.jpg": "/static/media/omnifood.fc2553b9d56d8e836525.jpg",
     "static/media/image-hero-mobile.png": "/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
-    "static/media/movie.jpg": "/static/media/movie.62f8fc0a3d177b205eea.jpg",
-    "static/media/frigo.jpg": "/static/media/frigo.61c859022fe470485314.jpg",
-    "static/media/rick-and-morty.jpg": "/static/media/rick-and-morty.5a668ca7ec4ebea9dc59.jpg",
-    "static/media/ip-tracker.jpg": "/static/media/ip-tracker.17d7c0a9750e5c367d1b.jpg",
-    "static/media/omnifood.jpg": "/static/media/omnifood.3263dc947987a2aad107.jpg",
-    "static/media/tailwind-1.jpg": "/static/media/tailwind-1.6da71aef49faf3d18218.jpg",
-    "static/media/homeoffice.jpg": "/static/media/homeoffice.09cd78471bc61c292842.jpg",
-    "static/media/space.jpg": "/static/media/space.f8507170193f63da7401.jpg",
-    "static/media/quiz.jpg": "/static/media/quiz.0de82c6dbc8d9c18fbf3.jpg",
-    "static/media/advice.jpg": "/static/media/advice.a35693ef3b7a9bedbe6e.jpg",
+    "static/media/gym.jpg": "/static/media/gym.74c0a2f93d1ee9a6020f.jpg",
+    "static/media/homeoffice.jpg": "/static/media/homeoffice.6ffd911c88bf896ec65d.jpg",
+    "static/media/space.jpg": "/static/media/space.6dfd41a3a0ac1d98473f.jpg",
+    "static/media/advice.jpg": "/static/media/advice.d94f3f8b862af7db8e20.jpg",
+    "static/media/quiz.jpg": "/static/media/quiz.74fe6b98e10e17912c0f.jpg",
     "index.html": "/index.html",
     "static/media/icon-close-menu.svg": "/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
-    "main.e99999c5.css.map": "/static/css/main.e99999c5.css.map",
-    "main.88004f4b.js.map": "/static/js/main.88004f4b.js.map"
+    "main.58dcb35a.css.map": "/static/css/main.58dcb35a.css.map",
+    "main.51ed2c2d.js.map": "/static/js/main.51ed2c2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e99999c5.css",
-    "static/js/main.88004f4b.js"
+    "static/css/main.58dcb35a.css",
+    "static/js/main.51ed2c2d.js"
   ]
 }

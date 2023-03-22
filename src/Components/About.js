@@ -10,26 +10,26 @@ const About = () => {
         About <span className='text-sky-500'>Me</span>
       </h2>
       <p className='mb-2'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure
-        nobis maiores iste asperiores modi perferendis exercitationem. Eum ea
-        vel quam quibusdam neque rerum repudiandae animi, at quod sint?
-        Distinctio reiciendis nobis, debitis, fugiat asperiores eos provident
-        maiores architecto fugit minima, ipsa nisi commodi eligendi alias
-        voluptatem! Debitis laborum voluptates ullam vitae adipisci pariatur
-        aspernatur explicabo quidem, incidunt earum! Quisquam sequi repudiandae
-        esse rerum dignissimos ipsam consequatur quod atque? Facere quaerat
-        beatae totam reprehenderit labore iste nemo, fugit perspiciatis? Ratione
-        impedit nam odit voluptate quasi vel voluptatem corporis ea reiciendis
-        quo, labore accusantium odio. Itaque nulla iure cumque adipisci
-        voluptate.
+        I'm a passionate, creative and multi-potencial skilled junior web
+        developer. I set my new skill target a few years ago in digital
+        technologies. Before changing my career path to code, I was SEO,
+        copywriter and entrepreneur of my own business where I created more than
+        70 niche websites using Wordpress. And Befor that I was a R&D chemistry
+        tehnicien for big French companies.
       </p>
+      <p className='mb-2'>
+        After finishing my studies of web development, front end is the part
+        that I find most attractive and in which I want to deep in, grow as a
+        dev and learn a lot more. However my curiosity knows no bounds and I am
+        also exploring the back end of web development.
+      </p>
+
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quos
-        dolorum officia numquam ea iure laudantium ab vel provident fugiat
-        corrupti debitis cum explicabo voluptatibus illo sed error incidunt
-        sequi iusto accusantium aspernatur, eos unde. Repellat veniam iste
-        nesciunt optio odit voluptatem temporibus saepe quod sequi minima dicta,
-        illo molestiae!
+        In order to provide the best user experience, I like creating beautiful,
+        interactive and functional interfaces. I also stand for quality,
+        scalability and optimization of web apps following always Gitflow and
+        agile methodologies. I love teamwork. To me learning is always fun, but
+        learning and growing together as a team is another level of fun.
       </p>
     </section>
   );
