@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.835ca196.css",
-    "main.js": "/static/js/main.628bc2c9.js",
-    "static/media/image-hero-desktop.png": "/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "main.css": "/static/css/main.e1c83910.css",
+    "main.js": "/static/js/main.8ed4fc09.js",
+    "static/media/light-image-hero-desktop-elo.png": "/static/media/light-image-hero-desktop-elo.c232503b3c80b8463aa8.png",
+    "static/media/dark-image-hero-desktop-elo2.png": "/static/media/dark-image-hero-desktop-elo2.99aecada2857f376ae3b.png",
+    "static/media/light-image-hero-mobile-elo.png": "/static/media/light-image-hero-mobile-elo.3e0f216e2d5994e19b44.png",
+    "static/media/dark-image-hero-mobile-elo2.png": "/static/media/dark-image-hero-mobile-elo2.6d9a37f115517afa857c.png",
     "static/media/ip-tracker.jpg": "/static/media/ip-tracker.53ad2bb3e571c85d9015.jpg",
     "static/media/podadora.jpg": "/static/media/podadora.c0a0a1130375a3121b7a.jpg",
     "static/media/movie.jpg": "/static/media/movie.0f5ef160ff6ef1207946.jpg",
@@ -11,7 +14,6 @@
     "static/media/rick-and-morty.jpg": "/static/media/rick-and-morty.e529986a3ff42d7092dc.jpg",
     "static/media/tailwind-1.jpg": "/static/media/tailwind-1.80da2cda59e0740cdf5f.jpg",
     "static/media/omnifood.jpg": "/static/media/omnifood.fc2553b9d56d8e836525.jpg",
-    "static/media/image-hero-mobile.png": "/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
     "static/media/gym.jpg": "/static/media/gym.74c0a2f93d1ee9a6020f.jpg",
     "static/media/homeoffice.jpg": "/static/media/homeoffice.6ffd911c88bf896ec65d.jpg",
     "static/media/space.jpg": "/static/media/space.6dfd41a3a0ac1d98473f.jpg",
@@ -19,11 +21,11 @@
     "static/media/quiz.jpg": "/static/media/quiz.74fe6b98e10e17912c0f.jpg",
     "index.html": "/index.html",
     "static/media/icon-close-menu.svg": "/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
-    "main.835ca196.css.map": "/static/css/main.835ca196.css.map",
-    "main.628bc2c9.js.map": "/static/js/main.628bc2c9.js.map"
+    "main.e1c83910.css.map": "/static/css/main.e1c83910.css.map",
+    "main.8ed4fc09.js.map": "/static/js/main.8ed4fc09.js.map"
   },
   "entrypoints": [
-    "static/css/main.835ca196.css",
-    "static/js/main.628bc2c9.js"
+    "static/css/main.e1c83910.css",
+    "static/js/main.8ed4fc09.js"
   ]
 }

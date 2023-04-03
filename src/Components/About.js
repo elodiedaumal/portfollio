@@ -10,26 +10,26 @@ const About = () => {
         About <span className='text-sky-500'>Me</span>
       </h2>
       <p className='mb-2'>
-        I'm a passionate, creative and multi-potencial skilled junior web
-        developer. I set my new skill target a few years ago in digital
-        technologies. Before changing my career path to code, I was SEO,
-        copywriter and entrepreneur of my own business where I created more than
-        70 niche websites using Wordpress. And Befor that I was a R&D chemistry
-        tehnicien for big French companies.
+        I'm a passionate and enthusiastic junior frontend developer. Before
+        changing my career path to code, I was a wordpress web designer and
+        creator. I created more than 70 niche websites and 30+ logos. Before my
+        career as a web developer, I was still a puzzle solver as I was a R&D
+        chemistry technician specialized in glass chemistry.
       </p>
       <p className='mb-2'>
-        After finishing my studies of web development, front end is the part
-        that I find most attractive and in which I want to deep in, grow as a
-        dev and learn a lot more. However my curiosity knows no bounds and I am
-        also exploring the back end of web development.
+        I focused my studies to become a frontend developer. It is the part that
+        I have found the most interesting so far. I can't wait to code amazing
+        design and grow as a dev and learn a lot more. However, my enthusiasm
+        knows no bounds. Therefore, I would be happy to learn about backend if
+        gotten the opportunity.
       </p>
 
       <p>
-        In order to provide the best user experience, I like creating beautiful,
-        interactive and functional interfaces. I also stand for quality,
-        scalability and optimization of web apps following always Gitflow and
-        agile methodologies. I love teamwork. To me learning is always fun, but
-        learning and growing together as a team is another level of fun.
+        In order to provide the best user experience, I like to create
+        beautiful, interactive and functional interfaces. I also stand for
+        quality, scalability and optimization of web apps following always
+        Gitflow and Agile methodologies. I love teamwork. To me coding is like
+        solving a puzzle, and I can't wait to solve puzzle together.
       </p>
     </section>
   );

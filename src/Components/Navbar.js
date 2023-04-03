@@ -20,6 +20,7 @@ const Navbar = () => {
   const [theme, setTheme] = useState(getStoredTheme());
 
   const toggleTheme = () => {
+    console.log(theme);
     if (theme === 'light') {
       setTheme('dark');
     } else {
