@@ -1,17 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Web1 from '../assets/images/ip-tracker.jpg';
-import Web2 from '../assets/images/movie.jpg';
-import Web3 from '../assets/images/omnifood.jpg';
-import Web4 from '../assets/images/quiz.jpg';
-import Web5 from '../assets/images/rick-and-morty.jpg';
-import Web6 from '../assets/images/space.jpg';
-import Web7 from '../assets/images/advice.jpg';
-import Web8 from '../assets/images/frigo.jpg';
-import Web9 from '../assets/images/homeoffice.jpg';
-import Web10 from '../assets/images/tailwind-1.jpg';
-import Web11 from '../assets/images/podadora.jpg';
-import Web12 from '../assets/images/gym.jpg';
+import React from "react";
+import { Link } from "react-router-dom";
+import Web1 from "../assets/images/ip-tracker.jpg";
+import Web2 from "../assets/images/movie.jpg";
+import Web3 from "../assets/images/omnifood.jpg";
+import Web4 from "../assets/images/quiz.jpg";
+import Web5 from "../assets/images/rick-and-morty.jpg";
+import Web6 from "../assets/images/space.jpg";
+import Web7 from "../assets/images/advice.jpg";
+import Web8 from "../assets/images/frigo.jpg";
+import Web9 from "../assets/images/homeoffice.jpg";
+import Web10 from "../assets/images/hotel.jpg";
+import Web12 from "../assets/images/gym.jpg";
+import Web13 from "../assets/images/DnD.jpg";
 
 const Work = () => {
   return (
@@ -24,6 +24,43 @@ const Work = () => {
       </h2>
       <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
         <img
+          src={Web13}
+          alt='e-commerce'
+          className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm '
+        />
+        <div className='opacity-0 hover:opacity-100'>
+          <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
+            <p className='px-5 text-white font-bold'>
+              Drag and Drop web with:
+              <ul className='font-thin'>
+                <li>- React</li>
+                <li>- Styled Components</li>
+                <li>- DnD kit</li>
+              </ul>
+            </p>
+            <Link
+              to='https://elodiedaumaldragndrop.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button className='text-sm bg-purple-600 text-white rounded-md py-1 w-28 h-10 hover:bg-gray-900/50'>
+                See Live
+              </button>
+            </Link>
+            <Link
+              to='https://github.com/elodiedaumal/DnDproject'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button className='text-sm bg-purple-100  rounded-md py-1 w-28 h-10 hover:bg-white/50 text-gray-900'>
+                View Code
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
+        <img
           src={Web9}
           alt='e-commerce'
           className='shadow-xl cursor-pointer dark:shadow-slate-50 dark:shadow-sm '
@@ -34,7 +71,8 @@ const Work = () => {
               E-commerce developed with:
               <ul className='font-thin'>
                 <li>- React</li>
-                <li>- Styled Components</li>
+                <li>- API</li>
+                <li>- Use Context</li>
               </ul>
             </p>
             <Link
@@ -258,11 +296,12 @@ const Work = () => {
               <ul className='font-thin'>
                 <li>- React</li>
                 <li>- Tailwind CSS</li>
+                <li>- Use Context</li>
               </ul>
             </p>
 
             <Link
-              to='https://elodiedaumal-landing-page-tailwind.netlify.app/'
+              to='https://elodiedaumal-hoteldelabaie.netlify.app/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -271,7 +310,7 @@ const Work = () => {
               </button>
             </Link>
             <Link
-              to='https://github.com/elodiedaumal/tailwind-landing-page'
+              to='https://github.com/elodiedaumal/hotel/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -412,33 +451,6 @@ const Work = () => {
               </ul>
             </p>
 
-            <Link
-              to='https://frigorificoamericano.pro/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <button className='text-sm bg-purple-600 text-white rounded-md py-1 w-28 h-10 hover:bg-gray-900/50'>
-                See Live
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className='hover:bg-gray-900/75 hover:h-full transition duration-500 hover:w-full hover:scale-105 relative '>
-        <img
-          src={Web11}
-          alt='podadora de altura'
-          className='shadow-xl cursor-pointer '
-        />
-        <div className='opacity-0 hover:opacity-100'>
-          <div className='grid gap-3 justify-items-center  absolute top-0 left-0 h-full w-full content-center bg-slate-900/80'>
-            <p className='px-5 text-white font-bold'>
-              Web developed with:
-              <ul className='font-thin'>
-                <li>- Wordpress</li>
-                <li>- CSS</li>
-              </ul>
-            </p>
             <Link
               to='https://frigorificoamericano.pro/'
               target='_blank'
