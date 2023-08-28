@@ -32,7 +32,7 @@ const Work = () => {
       id="portfolio"
       className=" flex flex-col gap-5 max-w-screen-xl p-5 md:px-10 mx-auto "
     >
-      <h2 className="text-4xl    text-left md:col-span-3 lg:col-span-4 sm:col-span-2">
+      <h2 className="text-4xl text-left md:col-span-3 lg:col-span-4 sm:col-span-2">
         My <span className="text-sky-500">Work</span>
       </h2>
       <div className="flex flex-col gap-10 justify-center items-center">
@@ -40,7 +40,7 @@ const Work = () => {
           <div>
             <label className="font-semibold">Framework: </label>
             <select
-              className="text-center py-1 rounded "
+              className="text-center py-1 rounded dark:bg-gray-800 "
               value={framework}
               onChange={(e) => setFramework(e.target.value)}
             >
@@ -53,7 +53,7 @@ const Work = () => {
           <div>
             <label className="font-semibold">Styling: </label>
             <select
-              className="text-center py-1 rounded "
+              className="text-center py-1 rounded dark:bg-gray-800"
               value={styling}
               onChange={(e) => setStyling(e.target.value)}
             >
@@ -66,7 +66,7 @@ const Work = () => {
           <div>
             <label className="font-semibold">Backend: </label>
             <select
-              className="text-center py-1 rounded "
+              className="text-center py-1 rounded dark:bg-gray-800"
               value={backend}
               onChange={(e) => setBackend(e.target.value)}
             >
