@@ -28,15 +28,19 @@ const Work = () => {
     setFilteredPortfolio(filtered);
   };
   return (
-    <section id="portfolio" className=" flex flex-col gap-5 ">
-      <h2 className="text-4xl max-w-screen-xl  py-5 text-left md:col-span-3 lg:col-span-4 sm:col-span-2">
+    <section
+      id="portfolio"
+      className=" flex flex-col gap-5 max-w-screen-xl p-5 md:px-10 mx-auto "
+    >
+      <h2 className="text-4xl    text-left md:col-span-3 lg:col-span-4 sm:col-span-2">
         My <span className="text-sky-500">Work</span>
       </h2>
-      <div className="flex flex-col gap-5 justify-center items-center">
+      <div className="flex flex-col gap-10 justify-center items-center">
         <div className="flex flex-col gap-3 md:flex-row lg:justify-between lg:w-full max-w-screen-lg  px-5">
           <div>
-            <label>Framework: </label>
+            <label className="font-semibold">Framework: </label>
             <select
+              className="text-center py-1 rounded "
               value={framework}
               onChange={(e) => setFramework(e.target.value)}
             >
@@ -47,20 +51,22 @@ const Work = () => {
             </select>
           </div>
           <div>
-            <label>Styling: </label>
+            <label className="font-semibold">Styling: </label>
             <select
+              className="text-center py-1 rounded "
               value={styling}
               onChange={(e) => setStyling(e.target.value)}
             >
               <option value="All">All</option>
               <option value="CSS">CSS</option>
               <option value="Styled Components">Styled Components</option>
-              <option value="Tailwind">Tailwind CSS</option>
+              <option value="Tailwind CSS">Tailwind CSS</option>
             </select>
           </div>
           <div>
-            <label>Backend: </label>
+            <label className="font-semibold">Backend: </label>
             <select
+              className="text-center py-1 rounded "
               value={backend}
               onChange={(e) => setBackend(e.target.value)}
             >
@@ -70,7 +76,7 @@ const Work = () => {
             </select>
           </div>
         </div>
-        <div className="md:pb-20 pb-10 grid  md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 md:px-10 gap-10 md:gap-7 px-5 max-w-screen-xl justify-center mx-auto">
+        <div className="md:pb-20 pb-10 grid   lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2  gap-10 md:gap-7  max-w-screen-xl justify-center mx-auto">
           {filteredPortfolio.map((app) => (
             <div
               key={app.id}

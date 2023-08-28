@@ -1,35 +1,39 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
     <section
-      id='about'
-      className='max-w-screen-xl mx-auto  p-5 leading-relaxed md:px-10 md:mb-20 dark:bg-gray-900 dark:text-zinc-50 '
+      id="about"
+      className="max-w-screen-xl mx-auto  p-5 leading-relaxed md:px-10 md:mb-20 dark:bg-gray-900 dark:text-zinc-50 "
     >
-      <h2 className='text-4xl  py-5'>
-        About <span className='text-sky-500'>Me</span>
+      <h2 className="text-4xl  py-5">
+        About <span className="text-sky-500">Me</span>
       </h2>
-      <p className='mb-2'>
-        I'm a passionate and enthusiastic junior frontend developer. Before
-        changing my career path to code, I was a wordpress web designer and
-        creator. I created more than 70 niche websites and 30+ logos. Before my
-        career as a web developer, I was still a puzzle solver as I was a R&D
-        chemistry technician specialized in glass chemistry.
+      <p className="mb-2">
+        I'm a <strong>junior full-stack developer</strong> with a varied
+        background. Before diving into coding, I worked with{" "}
+        <strong>WordPress</strong>, designing a good number of websites and
+        logos. Before that, I was in the R&D field as a{" "}
+        <strong>chemistry technician</strong>, focusing on glass chemistry. Both
+        experiences taught me the importance of details and{" "}
+        <strong>problem-solving.</strong>
       </p>
-      <p className='mb-2'>
-        I focused my studies to become a frontend developer. It is the part that
-        I have found the most interesting so far. I can't wait to code amazing
-        design and grow as a dev and learn a lot more. However, my enthusiasm
-        knows no bounds. Therefore, I would be happy to learn about backend if
-        gotten the opportunity.
+      <p className="mb-2">
+        While I started with a <strong>keen interest in frontend</strong> – the
+        visual and interactive parts of websites – I've since grown to
+        appreciate the mechanics of the <strong>backend</strong> too. Both
+        aspects are like two sides of a coin, and knowing them makes me better
+        at creating complete solutions. I've gotten hands-on with tools like
+        <strong>React.js, Node.js, and MySQL, among others.</strong>
       </p>
 
       <p>
-        In order to provide the best user experience, I like to create
-        beautiful, interactive and functional interfaces. I also stand for
-        quality, scalability and optimization of web apps following always
-        Gitflow and Agile methodologies. I love teamwork. To me coding is like
-        solving a puzzle, and I can't wait to solve puzzle together.
+        I aim for clear, <strong>effective code</strong>, always trying to stick
+        to best practices. I've also had some experience with{" "}
+        <strong>Gitflow and Agile</strong>
+        methods. Teamwork's great – I've found that good solutions often come
+        from <strong>good collaboration.</strong> I'm looking forward to diving
+        deeper into full-stack development and collaborating on new challenges.
       </p>
     </section>
   );
